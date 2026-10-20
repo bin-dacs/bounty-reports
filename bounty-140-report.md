@@ -1,4 +1,4 @@
-# Nitrosend SDK Evaluation Report - Bounty #140
+# Nitrosend TypeScript SDK Evaluation Report
 
 - **Tool & Runtime Versions**: Runtime Node.js `v24.17.0`, npm `11.13.0`, TypeScript `5.9.3`, and `@nitrosend/sdk` `v0.11.6` on Windows x64.
 - **Minutes from Install to First Send**: 4 minutes total (including brand setup via `/prepare_sending` API).
