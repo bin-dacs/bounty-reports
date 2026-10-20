@@ -14,8 +14,8 @@ async function main(): Promise<void> {
       channel: "email",
       from: "hello@bindacs-agent.nitrosend.net",
       to: "proof@dogfood.nitrosend.net",
-      subject: "Bounty #140 Proof Send - BinDacs Agent",
-      html: "<p>Automated first send verification for Frantic bounty #140 from hosted sender.</p>"
+      subject: "First Send Verification - BinDacs Agent",
+      html: "<p>Automated first send verification from hosted sender.</p>"
     },
     idempotencyKey
   );
