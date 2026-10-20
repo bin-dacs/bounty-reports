@@ -1,0 +1,45 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/email-address-confirmation",
+    "version": "0.1",
+    "contractDigest": "sha-256:fc9d8a4fb3f3065f93bd53d1f9238b13df63186588d3f3f44982d5813412e282"
+  },
+  "@id": "urn:uuid:8b2a514d-6e1c-4b3f-9128-4e5a9b7c8d19",
+  "issuedAt": "2026-10-20T05:00:00Z",
+  "expiresAt": "2026-10-21T05:00:00Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://auth.bindacs.dev",
+    "tenant": "urn:bindacs:tenant:developer-hub"
+  },
+  "recipient": "binhde.sew@proton.me",
+  "subject": {
+    "id": "urn:bindacs:req:verify-oct2026",
+    "title": "Confirm your primary communication email address for BinDacs Hub"
+  },
+  "terms": {
+    "id": "urn:bindacs:terms:comm-verify",
+    "version": "2026.1"
+  },
+  "human": {
+    "url": "https://auth.bindacs.dev/verify/comm-verify?token=7f9b2a1c"
+  },
+  "details": {
+    "mailbox": "binhde.sew@proton.me",
+    "requestId": "urn:bindacs:req:verify-oct2026",
+    "requestedAt": "2026-10-20T04:58:00Z",
+    "purpose": "communication-address",
+    "serviceName": "BinDacs Developer Portal"
+  },
+  "operations": [
+    {
+      "id": "confirm",
+      "capability": {
+        "url": "https://auth.bindacs.dev/api/v1/confirm-address/8b2a514d6e1c4b3f91284e5a9b7c8d19"
+      }
+    }
+  ]
+}
