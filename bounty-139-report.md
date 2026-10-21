@@ -6,7 +6,7 @@
   - `npx @nitrosend/cli login --api-key [REDACTED] --no-browser`
   - `npx @nitrosend/cli whoami`
   - `npx @nitrosend/cli status`
-  - `npx @nitrosend/cli send --to proof@dogfood.nitrosend.net --subject "Frantic bounty 139 test send from BinDacs" --body "Testing Nitrosend CLI v0.3.8 send functionality for bounty 139."`
+  - `npx @nitrosend/cli send --to proof@dogfood.nitrosend.net --subject "Nitrosend CLI evaluation test send from BinDacs" --body "Testing Nitrosend CLI v0.3.8 send functionality."`
 - **Timeline**: 3 minutes from npm installation to successful transactional dispatch (Send ID #5120030).
 - **Bottleneck**: Activating the hosted sender required calling `POST /v1/my/brands/<sid>/prepare_sending` with a custom subdomain before `nitrosend send` could route messages; initial CLI status showed `needs_setup` until sender provisioning finalized.
 - **Doc Gap & Repro**: On Windows PowerShell environments with default execution policies (`Restricted`), invoking npm-linked binaries directly triggers `PSSecurityException`. Calling via `npx.cmd @nitrosend/cli` works cleanly. Adding a brief Windows execution tip to `docs.nitrosend.com/cli/install` would streamline onboarding for Windows developers.
