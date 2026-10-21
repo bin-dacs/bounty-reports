@@ -1,6 +1,10 @@
 # Nitrosend TypeScript SDK Evaluation Report
 
 - **Tool & Runtime Versions**: Runtime Node.js `v24.17.0`, npm `11.13.0`, TypeScript `5.9.3`, and `@nitrosend/sdk` `v0.11.6` on Windows x64.
+- **Exact Install Command**: `npm install @nitrosend/sdk@0.11.6 typescript @types/node tsx`
+- **Exact Compile and Run Commands**: 
+  - Run directly with tsx: `npx tsx send_proof.ts`
+  - Or compile with tsc and run with node: `npx tsc --module nodenext --target es2022 send_proof.ts && node send_proof.js`
 - **Minutes from Install to First Send**: 4 minutes total (including brand setup via `/prepare_sending` API).
 - **Step that Slowed Most**: Discovering that `@nitrosend/sdk` is strictly packaged as an ES Module without a CommonJS `require` export condition, which threw `ERR_PACKAGE_PATH_NOT_EXPORTED` on initial CJS execution.
 - **Defect & Exact Repro**: 
