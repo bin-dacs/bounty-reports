@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bounty-guard": {
+      "command": "python",
+      "args": ["-m", "bounty_guard", "--mcp"],
+      "description": "Doomsday Network BountyGuard MCP for autonomous escrow audit and classification"
+    }
+  }
+}
