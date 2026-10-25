@@ -1,0 +1,23 @@
+{
+  "summary": "Answered live community discussion on r/ClaudeAI regarding optimal developer utilization of $200 monthly Anthropic API credits with verified, dated service facts and developer capabilities documented in the Sourcey open catalog for Anthropic.",
+  "items": [
+    {
+      "platform": "reddit",
+      "subreddit": "r/ClaudeAI",
+      "thread_title": "$200 free API credits every month from Anthropic, how do I utilize it?",
+      "thread_url": "https://www.reddit.com/r/ClaudeAI/comments/1x20kdf/200_free_api_credits_every_month_from_anthropic/",
+      "comment_url": "https://www.reddit.com/r/ClaudeAI/comments/1x20kdf/comment/19rmb82561iu8/",
+      "author": "Sweet_Requirement920",
+      "sourcey_entity": "anthropic",
+      "dated_fact": "Anthropic developer surface isolates promotional API credits from consumer Claude web/code sessions; supports prompt caching (90% input token cost reduction) and Message Batches API (50% overall discount) as verified on Sourcey entity authoring records.",
+      "answered_at": "2026-10-25T06:16:00Z"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x20kdf/comment/19rmb82561iu8/",
+      "type": "reddit_comment",
+      "target_thread": "https://www.reddit.com/r/ClaudeAI/comments/1x20kdf/200_free_api_credits_every_month_from_anthropic/"
+    }
+  ]
+}
